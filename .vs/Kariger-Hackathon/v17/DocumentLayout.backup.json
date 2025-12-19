@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C sharp work\\Kariger-Hackathon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EACF21E0-DB08-4CBB-A285-7129F26C9F0F}|Kariger-Hackathon\\Kariger-Hackathon.csproj|e:\\c sharp work\\kariger-hackathon\\kariger-hackathon\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACF21E0-DB08-4CBB-A285-7129F26C9F0F}|Kariger-Hackathon\\Kariger-Hackathon.csproj|solutionrelative:kariger-hackathon\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACF21E0-DB08-4CBB-A285-7129F26C9F0F}|Kariger-Hackathon\\Kariger-Hackathon.csproj|e:\\c sharp work\\kariger-hackathon\\kariger-hackathon\\views\\admin\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EACF21E0-DB08-4CBB-A285-7129F26C9F0F}|Kariger-Hackathon\\Kariger-Hackathon.csproj|solutionrelative:kariger-hackathon\\views\\admin\\reviews.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACF21E0-DB08-4CBB-A285-7129F26C9F0F}|Kariger-Hackathon\\Kariger-Hackathon.csproj|e:\\c sharp work\\kariger-hackathon\\kariger-hackathon\\controllers\\serviceprovidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EACF21E0-DB08-4CBB-A285-7129F26C9F0F}|Kariger-Hackathon\\Kariger-Hackathon.csproj|solutionrelative:kariger-hackathon\\controllers\\serviceprovidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EACF21E0-DB08-4CBB-A285-7129F26C9F0F}|Kariger-Hackathon\\Kariger-Hackathon.csproj|e:\\c sharp work\\kariger-hackathon\\kariger-hackathon\\views\\serviceprovider\\serviceprovider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EACF21E0-DB08-4CBB-A285-7129F26C9F0F}|Kariger-Hackathon\\Kariger-Hackathon.csproj|solutionrelative:kariger-hackathon\\views\\serviceprovider\\serviceprovider.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\C sharp work\\Kariger-Hackathon\\Kariger-Hackathon\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Kariger-Hackathon\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\C sharp work\\Kariger-Hackathon\\Kariger-Hackathon\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Kariger-Hackathon\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:31:14.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Reviews.cshtml",
+              "DocumentMoniker": "E:\\C sharp work\\Kariger-Hackathon\\Kariger-Hackathon\\Views\\Admin\\Reviews.cshtml",
+              "RelativeDocumentMoniker": "Kariger-Hackathon\\Views\\Admin\\Reviews.cshtml",
+              "ToolTip": "E:\\C sharp work\\Kariger-Hackathon\\Kariger-Hackathon\\Views\\Admin\\Reviews.cshtml",
+              "RelativeToolTip": "Kariger-Hackathon\\Views\\Admin\\Reviews.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T05:30:51.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceProvider.cshtml",
+              "DocumentMoniker": "E:\\C sharp work\\Kariger-Hackathon\\Kariger-Hackathon\\Views\\ServiceProvider\\ServiceProvider.cshtml",
+              "RelativeDocumentMoniker": "Kariger-Hackathon\\Views\\ServiceProvider\\ServiceProvider.cshtml",
+              "ToolTip": "E:\\C sharp work\\Kariger-Hackathon\\Kariger-Hackathon\\Views\\ServiceProvider\\ServiceProvider.cshtml",
+              "RelativeToolTip": "Kariger-Hackathon\\Views\\ServiceProvider\\ServiceProvider.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T05:26:54.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceProviderController.cs",
+              "DocumentMoniker": "E:\\C sharp work\\Kariger-Hackathon\\Kariger-Hackathon\\Controllers\\ServiceProviderController.cs",
+              "RelativeDocumentMoniker": "Kariger-Hackathon\\Controllers\\ServiceProviderController.cs",
+              "ToolTip": "E:\\C sharp work\\Kariger-Hackathon\\Kariger-Hackathon\\Controllers\\ServiceProviderController.cs",
+              "RelativeToolTip": "Kariger-Hackathon\\Controllers\\ServiceProviderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T05:25:54.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

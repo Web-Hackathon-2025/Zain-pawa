@@ -1,0 +1,86 @@
+﻿@{
+    ViewData["Title"] = "Karigar - Home";
+}
+
+<div class="container mt-5">
+
+    <!-- HERO SECTION -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+            <h1 class="fw-bold">Find Trusted Local Service Providers</h1>
+            <p class="text-muted mt-3">
+                Karigar connects you with nearby plumbers, electricians, tutors,
+                cleaners and more — quickly and reliably.
+            </p>
+
+            <div class="mt-4">
+                <a asp-area="Identity" asp-page="/Account/Register"
+                   class="btn btn-primary btn-lg me-2">
+                    Get Started
+                </a>
+                <a asp-area="Identity" asp-page="/Account/Login"
+                   class="btn btn-outline-secondary btn-lg">
+                    Login
+                </a>
+            </div>
+        </div>
+
+        <div class="col-md-6 text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/3063/3063822.png"
+                 class="img-fluid"
+                 style="max-height: 300px;"
+                 alt="Services">
+        </div>
+    </div>
+
+    <!-- FEATURES SECTION -->
+    <div class="row text-center mb-5">
+        <h2 class="fw-bold mb-4">Why Karigar?</h2>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Verified Providers</h5>
+                    <p class="card-text text-muted">
+                        All service providers are verified and approved by admin.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Easy Booking</h5>
+                    <p class="card-text text-muted">
+                        Request services, track bookings, and get updates in real time.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5 class="card-title">AI Assistance</h5>
+                    <p class="card-text text-muted">
+                        Smart recommendations powered by AI to save your time.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA SECTION -->
+    <div class="text-center bg-light p-5 rounded">
+        <h3 class="fw-bold">Are you a Service Provider?</h3>
+        <p class="text-muted mt-2">
+            Join Karigar and reach customers near you.
+        </p>
+        <a asp-area="Identity" asp-page="/Account/Register"
+           class="btn btn-success btn-lg mt-3">
+            Join as Provider
+        </a>
+    </div>
+
+</div>
