@@ -1,0 +1,100 @@
+@{
+    ViewData["Title"] = "Karigar - Home";
+}
+
+<style>
+    .hover-shadow:hover {
+        transform: translateY(-5px);
+        transition: all 0.3s ease;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+    .category-pill:hover {
+        background-color: #0d6efd;
+        color: white !important;
+    }
+</style>
+
+<div class="container mt-4">
+
+    <div class="row align-items-center py-5 mb-4">
+        <div class="col-lg-6">
+            <h1 class="display-4 fw-bold text-dark">Find Trusted Local <span class="text-primary">Karigars</span></h1>
+            <p class="lead text-muted mt-3">
+                Connecting you with verified plumbers, electricians, and local experts in seconds. Reliable service, right at your doorstep.
+            </p>
+
+            <div class="input-group input-group-lg mt-4 shadow-sm border rounded">
+                <span class="input-group-text bg-white border-0"><i class="bi bi-search text-muted"></i></span>
+                <input type="text" class="form-control border-0" placeholder="What service do you need? (e.g. Electrician)">
+                <button class="btn btn-primary px-4" type="button">Search</button>
+            </div>
+
+            <div class="mt-4">
+                <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-primary btn-lg px-4 me-2 shadow-sm">Get Started</a>
+                <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-outline-dark btn-lg px-4">Login</a>
+            </div>
+        </div>
+
+        <div class="col-lg-6 d-none d-lg-block text-center">
+            <img src="https://cdn-icons-png.flaticon.com/512/3063/3063822.png" 
+                 class="img-fluid floating-animation" 
+                 style="max-height: 400px;" 
+                 alt="Professional Services">
+        </div>
+    </div>
+
+    <div class="row mb-5 text-center">
+        <div class="col-12 mb-3">
+            <h5 class="text-muted text-uppercase fw-bold small">Popular Categories</h5>
+        </div>
+        <div class="col-12 d-flex flex-wrap justify-content-center gap-2">
+            <a href="#" class="btn btn-light border rounded-pill px-4 category-pill shadow-sm">🚰 Plumbing</a>
+            <a href="#" class="btn btn-light border rounded-pill px-4 category-pill shadow-sm">⚡ Electrical</a>
+            <a href="#" class="btn btn-light border rounded-pill px-4 category-pill shadow-sm">🧹 Cleaning</a>
+            <a href="#" class="btn btn-light border rounded-pill px-4 category-pill shadow-sm">🎨 Painting</a>
+            <a href="#" class="btn btn-light border rounded-pill px-4 category-pill shadow-sm">📚 Tutoring</a>
+        </div>
+    </div>
+
+    <div class="row g-4 text-center mb-5 py-5">
+        <h2 class="fw-bold mb-4">Why Choose Karigar?</h2>
+
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 hover-shadow">
+                <div class="card-body p-4">
+                    <div class="mb-3 text-primary"><i class="bi bi-patch-check-fill fs-1"></i></div>
+                    <h5 class="fw-bold">Verified Providers</h5>
+                    <p class="text-muted mb-0">Every professional is background-checked and admin-approved for your safety.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 hover-shadow">
+                <div class="card-body p-4">
+                    <div class="mb-3 text-success"><i class="bi bi-calendar-check-fill fs-1"></i></div>
+                    <h5 class="fw-bold">Instant Booking</h5>
+                    <p class="text-muted mb-0">Schedule services at your convenience and track them in real-time via your dashboard.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm h-100 hover-shadow">
+                <div class="card-body p-4">
+                    <div class="mb-3 text-info"><i class="bi bi-cpu-fill fs-1"></i></div>
+                    <h5 class="fw-bold">AI Recommendations</h5>
+                    <p class="text-muted mb-0">Our smart algorithm matches you with the best provider based on ratings and distance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-dark text-white p-5 rounded-4 shadow text-center mb-5">
+        <h2 class="fw-bold">Are you a Skilled Professional?</h2>
+        <p class="lead opacity-75 mt-2">Grow your business by reaching thousands of customers in your local area.</p>
+        <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-success btn-lg px-5 mt-3 fw-bold shadow">
+            Join as a Karigar
+        </a>
+    </div>
+</div>
